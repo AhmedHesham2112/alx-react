@@ -71,6 +71,7 @@ class Notifications extends React.Component {
             </div>
             <div className={css(styles.notifications)}>
               <ul className={css(styles.notificationList)}>
+                <p>Here is the list of notifiactions</p>
                 {this.props.listNotifications &&
                 this.props.listNotifications.length > 0 ? (
                   this.props.listNotifications.map(
